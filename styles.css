@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2d323b;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    margin: 2rem;
+}
+
+.color-button {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(163, 141, 141, 0.5);
+    transition: transform 0.1s;
+}
+
+#green { background-color: green; }
+#red { background-color: red; }
+#yellow { background-color: yellow; }
+#blue { background-color: blue; }
+
+#start {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgb(106, 102, 102);
+    border-radius: 5px;
+    background-color: #2b9d37;
+    color: white;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#start:hover {
+    background-color: rgb(18, 138, 114);
+    transform: scale(1.1);
+}
+
+#start:active {
+    background-color: #0e8127;
+    transform: scale(1);
+}
+
