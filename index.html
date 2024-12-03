@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header><h1>Simon Says</h1></header>
+<body>
+    <div id="game">
+        <div class="color-button" id="green"></div>
+        <div class="color-button" id="red"></div>
+        <div class="color-button" id="yellow"></div>
+        <div class="color-button" id="blue"></div>
+    </div>
+    <button id="start">Start Game</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>Daniel Martin © <span id="year"></span></p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+</html>
