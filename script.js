@@ -48,4 +48,13 @@ $(document).ready(function() {
             nextSequence();
         }
     });
+
+    // Export functions and variables for testing
+    module.exports = {
+        nextSequence,
+        checkSequence,
+        sequence,
+        userSequence,
+        level
+    };
 });
