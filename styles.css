@@ -68,18 +68,19 @@ footer {
     cursor: pointer;
     border: 1px solid rgb(106, 102, 102);
     border-radius: 5px;
-    background-color: #2b9d37;
+    background-color: #0c85b5;
     color: white;
     transition: background-color 0.3s, transform 0.1s;
 }
 
 #start:hover {
-    background-color: rgb(18, 138, 114);
+    background-color: rgb(0, 200, 255);
     transform: scale(1.1);
 }
 
 #start:active {
-    background-color: #0e8127;
+    background-color: #16b2ad;
+    color: blue;
     transform: scale(1);
 }
 
